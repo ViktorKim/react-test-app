@@ -13,7 +13,7 @@ const Projects = () => {
             <Button name={'Refresh'} action={() => {
                 console.log('refresh')
             }}/>
-            <ProjectsList projects={[{id: '1', name: 'test'}]}/>
+            <ProjectsList projects={[{id: '1', name: 'test'},{id: '2', name: 'test2'},{id: '3', name: 'test3'},{id: '4', name: 'test4'}]}/>
             <Pagination current={1} perPage={5}/>
         </div>
     )
