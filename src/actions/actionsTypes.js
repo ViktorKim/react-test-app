@@ -1,3 +1,6 @@
-export const actionsTypes = {
-
+export const ACTION_TYPE = {
+    ADD_PROJECT: 'ADD_PROJECT',
+    VIEW_PROJECT: 'VIEW_PROJECT',
+    EDIT_PROJECT: 'EDIT_PROJECT',
+    DELETE_PROJECT: 'DELETE_PROJECT',
 };
